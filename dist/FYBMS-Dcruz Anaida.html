@@ -1,0 +1,163 @@
+		
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" class="cufon-active cufon-ready"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+				  
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="St. Xaviers College, Mumbai">
+  <meta name="title" content="Parent Login">
+  <meta name="author" content="Administrator">
+  <meta name="description" content="St. Xaviers College, Mumbai">
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management">
+  <title>Student Attendance</title>
+  <link rel="stylesheet" href="./Student Attendance_files/colorpicker.css" type="text/css">
+  <link rel="stylesheet" href="./Student Attendance_files/css-0b5cff2c84260a048a3e8992aed99033.css" type="text/css">
+  <link rel="stylesheet" href="./Student Attendance_files/10.css" type="text/css">
+  <link rel="stylesheet" href="./Student Attendance_files/dualfish.css" type="text/css">
+  <script type="text/javascript" src="./Student Attendance_files/mootools.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/caption.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/jquery.magic.min.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/jquery.tools.min.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/colorpicker.min.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/cufon-yui.js"></script><style type="text/css">cufon{text-indent:0!important;}@media screen,projection{cufon{display:inline!important;display:inline-block!important;position:relative!important;vertical-align:middle!important;font-size:1px!important;line-height:1px!important;}cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:0!important;height:0!important;overflow:hidden!important;text-indent:-10000in!important;}cufon canvas{position:relative!important;}}@media print{cufon{padding:0!important;}cufon canvas{display:none!important;}}</style>
+  <script type="text/javascript" src="./Student Attendance_files/Cooper_Black_400.font.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/jxtcpngfix.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/scripts.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/superfish.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/scripts.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="./Student Attendance_files/jquery.js"></script>
+  <script type="text/javascript">
+			jQuery.noConflict();
+			
+  </script>
+  <script src="./Student Attendance_files/audio-player.js" type="text/javascript"></script>
+  			</head>
+	<script type="text/javascript">
+	function printwin()
+	{
+		var rno,drpc;
+		rno= document.form1.txtrollno.value	;
+		drpc = document.form1.drpcourse.value;
+
+		myWindow=window.open("AttreportPrint.php?c=" + drpc + "&r="+rno,"PrintForm","location=1,status=1,scrollbars=1,width=1200,height=610");
+		myWindow.moveTo(0, 0);
+		//return true;
+	}
+	function cancelwin()
+	{
+		document.location.href="ParentLogout.php";
+	}
+	function Formatrollno()
+	{
+	   alert(document.form1.txtrollno.value);
+	}
+	</script>
+
+	<body class="bodySubpage  com_content dualfish slideon article insetOff10 ">
+<div id="header_outer">
+	<div id="header_inner" class="wrapper clearfix">
+		<div class="logo">
+			<a id="logo" class="hideTxt" href="http://main.xaviers.edu.in/">Logo</a>
+		</div>
+</div>
+</div>
+<div id="colss" class="wrapper clearfix">
+			<div id="col-center" class="col-center  column last-column clearfix" style="width:1024px;"> 
+    <div id="maincontent"><div id="maincontent-inner">      
+		<div class="component com_content">     
+			<div id="component-com_content" class="clearfix">
+<div class="item-bg">
+	<div class="article"> 		
+				<div class="articleHeader">
+						<h2 class="itemTitle">
+						<cufon class="cufon cufon-canvas" alt="Placement " style="width: 157px; height: 28px; ">
+						<canvas width="194" height="33" style="width: 194px; height: 33px; top: -3px; left: -5px; ">
+						</canvas>
+						<cufontext>Student Attendance</cufontext>
+						</cufon>
+						</h2>
+			            </div>
+	
+	    <div class="simple module   modTitleOff">
+			<div class="module_content" style="width:700px;">
+			<p>			
+			<form name="form1" method="post" action="">
+			<table width="100%">
+
+				<tr><td>&nbsp;</td><td>Course:
+				</td><td>
+					
+								<input type="text" name="drpcourse" id="drpcourse" size="8" readonly value="FYBMS">
+
+				</td><td colspan="5">&nbsp;</td></tr>
+
+				<tr><td colspan="8">&nbsp;</td></tr>
+				<tr><td>&nbsp;</td><td>Roll No:</td><td>
+				<input type="text" name="txtrollno" id="txtrollno" size="8" readonly value="012" style="WIDTH: 27px; HEIGHT: 22px">
+				</td><td colspan="5"><input type="submit" name="Submit" value="Show Attendance">&nbsp;</td></tr>
+				<tr><td colspan="8">&nbsp;</td></tr>
+				<tr><td>&nbsp;</td><td>Academic Year:</td><td colspan='6'><b>2015-2016 (Period : JUN to SEP)</b></td></tr><tr><td colspan='8'>&nbsp;</td></tr><tr><td>&nbsp;</td><td>Student Name:</td><td><b>Dcruz Anaida</b></td><td colspan='5'>&nbsp;</td></tr><tr><td colspan='8'><hr/></td></tr><tr><td>&nbsp;</td><td>Subject</td><td align='center'>Prev Month<br>Attended/Total</td><td
+							align='center'>% of Prev Month</td><td
+							align='center'>Semester1<br>Attended/Total</td><td
+							align='center'>Semester2<br>Attended/Total</td><td
+							align='center'>TotalSEM1/2<br>Attended/Total</td><td
+							align='center'>Percent(%)</td></tr><tr><td colspan='8'><hr/></td></tr><tr><td>&nbsp;</td><td>Environmental Science</td><td align='center'>0/10</td>
+										<td align='center'><font color='red'>0.00</font></td>
+										<td align='center'>0/26</td>
+										<td align='center'>-</td>
+										<td align='center'>0/26</td><td align='center'><font color='red'>0.00</font></td></tr><tr><td>&nbsp;</td><td>Introduction to Computer Basics</td><td align='center'>0/12</td>
+										<td align='center'><font color='red'>0.00</font></td>
+										<td align='center'>4/40</td>
+										<td align='center'>-</td>
+										<td align='center'>4/40</td><td align='center'><font color='red'>10.00</font></td></tr><tr><td>&nbsp;</td><td>Principles of Management</td><td align='center'>0/12</td>
+										<td align='center'><font color='red'>0.00</font></td>
+										<td align='center'>0/37</td>
+										<td align='center'>-</td>
+										<td align='center'>0/37</td><td align='center'><font color='red'>0.00</font></td></tr><tr><td>&nbsp;</td><td>Introduction to Financial Accounts</td><td align='center'>0/14</td>
+										<td align='center'><font color='red'>0.00</font></td>
+										<td align='center'>3/35</td>
+										<td align='center'>-</td>
+										<td align='center'>3/35</td><td align='center'><font color='red'>8.57</font></td></tr><tr><td>&nbsp;</td><td>Business Law</td><td align='center'>0/13</td>
+										<td align='center'><font color='red'>0.00</font></td>
+										<td align='center'>2/37</td>
+										<td align='center'>-</td>
+										<td align='center'>2/37</td><td align='center'><font color='red'>5.41</font></td></tr><tr><td>&nbsp;</td><td>Business Maths</td><td align='center'>0/11</td>
+										<td align='center'><font color='red'>0.00</font></td>
+										<td align='center'>0/42</td>
+										<td align='center'>-</td>
+										<td align='center'>0/42</td><td align='center'><font color='red'>0.00</font></td></tr><tr><td>&nbsp;</td><td>Business Communication</td><td align='center'>0/11</td>
+										<td align='center'><font color='red'>0.00</font></td>
+										<td align='center'>0/33</td>
+										<td align='center'>-</td>
+										<td align='center'>0/33</td><td align='center'><font color='red'>0.00</font></td></tr><tr><td colspan='8'><hr/></td></tr><tr><td colspan='6'>&nbsp;</td><td align='center'><h4>9/250</h4></td><td align='center'><h4><font color='red'>3.60<font></h4></td></tr><tr><td colspan='8'><hr/></td></tr><tr><td>&nbsp;</td><td colspan='7'><input type=button value='Print' onclick='printwin()' /> &nbsp; &nbsp;<input type=button value='Cancel' onclick='cancelwin()' /></td></tr><tr><td colspan='8'>&nbsp;</td></tr><tr><td>&nbsp;</td><td colspan='7'>
+					 <font color='red'><b>DUE TO INADEQUATE ATTENDANCE, THE STUDENT IS REQUIRED TO MEET THE PRINCIPAL / VICE-PRINCIPAL AS PER THE SCHEDULE DISPLAYED ON THE COLLEGE NOTICE BOARD</b></font> </td></tr><tr><td colspan='8'>&nbsp;</td></tr><tr><td>&nbsp;</td><td colspan='7'><TABLE  border='1' border-color='black'><TR><TD><hr color='red'>
+					 <b>As required by the University of Mumbai, Circular No. UG/502 of 1996 dated 6th October, 1999, referring to Ordinances 119, 119A and 120 regarding the minimum attendance necessary for keeping terms, you are hereby required to have, in each subject, a minimum attendance of 75% of the theory lectures, practicals and tutorials (wherever prescribed) separately out of the total number of lectures, practicals and tutorials in the subject conducted in the semester</b> <hr color='red'></td></tr></TABLE></td></tr><tr><td colspan='8'>&nbsp;</td></tr><tr><td>&nbsp;</td><td colspan='7'>
+					 <font color='black'>Attendance for Sports / Cultural Activities will be taken into account only at the end of each semester.</font> </td></tr>				</table></form>	
+			</p>
+            </div>
+      </div>
+
+	</div></div>
+			</div><!--</div></div> -->  
+		   
+		</div>
+        </div></div>
+
+		</div>
+		</div>
+		<div id="regionWrapper">
+					</div>
+							<div id="footer_outer">
+					<div id="footer_container" class="wrapper">
+						<div id="footer_inner" class="wrapper">
+							<div class="module-set "><div id="legals" class="col-right  module-column last-module-column" style="width:400px;">  
+		<div class="simple module   modTitleOff">
+			              
+			<div class="module_content">
+				<p>St. Xavier's College, Mumbai-India.</p>   
+			</div>
+		</div>   
+	</div></div>						</div>
+					</div>
+				</div>
+</body></html>
