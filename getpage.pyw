@@ -84,8 +84,9 @@ class Attendance(Tkinter.Tk):
         username = ''
         password = ''
         acc_pwd = dict([(k, v) for k,v in zip (args[::2], args[1::2])])
-        r = s.get(theurl,stream=True)
+        #r = s.get(theurl,stream=True)
         r = s.post(theurl, data=acc_pwd)
+        print r
         if 'drpcourse' and 'txtrollno' in acc_pwd:
             username = acc_pwd['drpcourse']
             password = acc_pwd['txtrollno']
